@@ -6,8 +6,7 @@ namespace Lab1Pseudo_random_sequences
     {
         static void Main(string[] args)
         {
-            int L = Lab1(8, 6, 10000);
-            Console.WriteLine("Linear complexity : {0}", L);
+            Lab1(8, 6, 10000);
         }
 
         private static int Lab1(int regCnt, int startingRegBitRate, int sequenceSize)
