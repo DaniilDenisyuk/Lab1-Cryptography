@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace Lab1Pseudo_random_sequences
 {
-    public class Rules
+    class Rules
     {
-        public static Dictionary<uint, uint> DRules = new Dictionary<uint, uint>
+        protected internal static Dictionary<uint, uint> DRules = new Dictionary<uint, uint>
         {
             {4, 0b_1100},
             {5, 0b_10010},

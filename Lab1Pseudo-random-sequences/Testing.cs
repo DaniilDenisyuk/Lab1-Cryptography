@@ -1,15 +1,14 @@
 using System;
 using System.Linq;
-using System.Runtime.CompilerServices;
 
 namespace Lab1Pseudo_random_sequences
 {
-    public class Testing
+    public static class Testing
     {
-        private static bool getBitValue(uint bitSeq, int bitNum)
-        {
-            return (bitSeq & 1 << bitNum) != 0;
-        }
+        // private static bool getBitValue(uint bitSeq, int bitNum)
+        // {
+        //     return (bitSeq & 1 << bitNum) != 0;
+        // }
         
         public static int LinearTest(bool[] sequence)
         {
